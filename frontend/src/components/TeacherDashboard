@@ -1,0 +1,21 @@
+// TeacherDashboard.js (i frontend/src/components)
+
+import React from 'react';
+
+function TeacherDashboard() {
+  return (
+    <div>
+      <h1>Lärarskrivbord</h1>
+      <section>
+        <h2>Klassrumsplanering</h2>
+        {/* Komponent för att hantera klassrumsplanering */}
+      </section>
+      <section>
+        <h2>Elevuppgifter</h2>
+        {/* Komponent för att granska och betygsätta elevuppgifter */}
+      </section>
+    </div>
+  );
+}
+
+export default TeacherDashboard;
