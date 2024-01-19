@@ -5,6 +5,7 @@ NordLjusOS är ett öppet operativsystem utformat för att möta de unika behove
 
 ## Funktioner
 NordLjusOS inkluderar en rad funktioner för att underlätta dagliga aktiviteter i skolmiljön:
+- **Chattbot:** En chattbot som fungerar i hela systemet och som kan hjälpa till med tidskrävande uppgifter.
 - **Klassrumsförvaltning:** Verktyg för schemaläggning, närvarohantering och klassrumsinteraktion.
 - **Lärandehantering:** Plattform för kursmaterial, uppgifter, prov och feedback.
 - **Administrativa Verktyg:** Lösningar för student- och personalhantering.
