@@ -38,20 +38,25 @@ export default Login;
 
 // Uppdatering i Login.js
 
+// Uppdatering i Login.js
+
 const handleSubmit = async (event) => {
   event.preventDefault();
   try {
     const response = await fetch('http://localhost:3001/login', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ username, password }),
+      // ... som tidigare
     });
     const data = await response.json();
-    console.log(data);
+    if (data.success) {
+      sessionStorage.setItem('token', data.token); // Spara token i sessionen
+      console.log('Inloggning lyckad');
+      // Vidare navigering till dashboard kan implementeras här
+    } else {
+      console.log('Inloggningsfel: ', data.message);
+    }
   } catch (error) {
     console.error('Inloggningsfel', error);
   }
 };
+
 
