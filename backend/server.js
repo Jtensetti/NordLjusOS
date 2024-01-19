@@ -109,3 +109,12 @@ app.use((req, res, next) => {
   next();
 });
 
+//Analysera Data
+// I server.js
+
+app.post('/logActivity', (req, res) => {
+  const { username, activity } = req.body;
+  // Logga aktiviteten i databasen
+  // Använd denna data för att analysera användarbeteenden och systemanvändning
+  res.json({ success: true, message: 'Aktivitet loggad' });
+});
