@@ -18,4 +18,14 @@ function StudentDashboard() {
   );
 }
 
+import React from 'react';
+import { Card, List, ListItem } from '@material-ui/core';
+
+function StudentDashboard() {
+  // Använd Material-UI komponenter för bättre design
+  return (
+    // ...
+  );
+}
+
 export default StudentDashboard;
