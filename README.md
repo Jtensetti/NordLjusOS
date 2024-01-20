@@ -20,6 +20,7 @@ Säkerhet är en prioritet i NordLjusOS. Systemet inkluderar:
 
 ## Teknisk Plattform
 NordLjusOS är baserat på en modifierad version av Ubuntu, vilket gör det kompatibelt med ett brett spektrum av datorer.
+Det är samtidigt ett webbaserat operativsystem som baseras på Chromium vilket underlättar för de som vill bidra med nya funktioner. 
 
 ## Bidra
 Vi välkomnar bidrag från gemenskapen! Se [CONTRIBUTING.md](CONTRIBUTING.md) för riktlinjer om hur du kan bidra till NordLjusOS.
