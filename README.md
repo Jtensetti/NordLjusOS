@@ -19,7 +19,7 @@ Säkerhet är en prioritet i NordLjusOS. Systemet inkluderar:
 - **Dataskydd:** Kryptering av känslig information och säkra protokoll.
 
 ## Teknisk Plattform
-NordLjusOS är baserat på en modifierad version av Chromium, vilket gör det kompatibelt med ett brett spektrum av datorer.
+NordLjusOS är baserat på en modifierad version av Ubuntu, vilket gör det kompatibelt med ett brett spektrum av datorer.
 
 ## Bidra
 Vi välkomnar bidrag från gemenskapen! Se [CONTRIBUTING.md](CONTRIBUTING.md) för riktlinjer om hur du kan bidra till NordLjusOS.
